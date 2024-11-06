@@ -1,0 +1,48 @@
+.team-match-container {
+  background: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.latestMatch-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  height: auto;
+}
+.teamImage {
+  height: 25vh;
+  width: 80vw;
+}
+.latest-heading {
+  font-size: 21px;
+  font-family: 'Bree Serif';
+  color: white;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-left: 8vw;
+}
+.teamImage {
+  height: 24vh;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 7px;
+  margin-top: 2.5vh;
+}
+
+@media (min-width: 768px) {
+  .latest-heading {
+    font-size: 27px;
+  }
+}

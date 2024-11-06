@@ -1,0 +1,52 @@
+.each-ipl-team-container {
+  height: 17vh;
+  width: 37vw;
+  border: 2px solid white;
+  border-radius: 7px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.image-design {
+  height: 60px;
+  width: 70px;
+  margin: 2px;
+}
+
+#team-name-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .each-ipl-team-container {
+    height: 17vh;
+    width: 30vw;
+    border: 2px solid white;
+    border-radius: 7px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+  .image-design {
+    height: 65px;
+    width: 76px;
+    margin-right: 5px;
+    margin-left: 2px;
+  }
+
+  #team-name-heading {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+  }
+}

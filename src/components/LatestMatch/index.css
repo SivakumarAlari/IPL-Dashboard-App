@@ -1,0 +1,147 @@
+.latest-match-containers {
+  height: 60vh;
+  width: 85vw;
+  background-color: #1e293b;
+  border-radius: 5px;
+  margin-left: 7vw;
+}
+
+.first-part-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3vw;
+}
+.bottom-part-container {
+  margin-left: 2.5vw;
+}
+.competeTeam-heading {
+  font-size: 14px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.date-heading {
+  font-size: 17px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.ownImage-design {
+  height: 85px;
+  width: 95px;
+  margin-top: 4vh;
+  margin-right: 1.5vw;
+}
+.venue-heading {
+  font-size: 13px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.result-heading {
+  font-size: 14px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.first-heading {
+  font-size: 15px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.bat-first-paragraph {
+  font-size: 13px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.man-ofThe-match-paragraph {
+  font-size: 15px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.player-name {
+  font-size: 13px;
+  font-family: 'Bree serif';
+  color: white;
+}
+.href-design {
+  width: 80vw;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .team-image-second {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-match-containers {
+    height: auto;
+    min-width: 88vw;
+    background-color: #1e293b;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .first-part-container {
+  }
+  .bottom-part-container {
+    text-align: end;
+    margin-right: 2.5vw;
+  }
+  .team-image-container {
+    display: none;
+  }
+  .href-design {
+    display: none;
+  }
+  .ownImage-design {
+    height: 130px;
+    width: 165px;
+    margin-top: 4vh;
+    margin-right: 1.5vw;
+  }
+  .competeTeam-heading {
+    font-size: 20px;
+    width: 125px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .date-heading {
+    font-size: 20px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .venue-heading {
+    width: 190px;
+    font-size: 18px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .result-heading {
+    font-size: 17px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .first-heading {
+    font-size: 18px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .bat-first-paragraph {
+    font-size: 17px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .man-ofThe-match-paragraph {
+    font-size: 17px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+  .player-name {
+    font-size: 16px;
+    font-family: 'Bree serif';
+    color: white;
+  }
+}
